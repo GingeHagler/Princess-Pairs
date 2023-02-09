@@ -1,0 +1,20 @@
+body {
+    background-image: url(../css/images/disney-castle-fireworks.jpg);
+    background-color: purple;
+    margin: 0;
+}
+
+.cards {
+    margin: 48px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 16px;
+}
+
+.card {
+    height: 100px;
+    background: cornflowerblue;
+    border: 3px solid rgb(195, 127, 255);
+    cursor: pointer;
+}
